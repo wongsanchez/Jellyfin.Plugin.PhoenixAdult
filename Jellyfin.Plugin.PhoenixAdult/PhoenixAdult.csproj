@@ -1,12 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework Condition="'$(Configuration)'=='Debug' or '$(Configuration)'=='Release'">net6.0</TargetFramework>
+    <TargetFramework Condition="'$(Configuration)'=='Debug' or '$(Configuration)'=='Release'">net8.0</TargetFramework>
     <TargetFramework Condition="'$(Configuration)'=='Debug.Emby' or '$(Configuration)'=='Release.Emby'">netstandard2.1</TargetFramework>
     <RootNamespace>PhoenixAdult</RootNamespace>
-    <AssemblyVersion>10.8.0.0</AssemblyVersion>
-    <FileVersion>10.8.0.0</FileVersion>
-    <InformationalVersion>10.8.0.0</InformationalVersion>
+    <AssemblyVersion>10.9.0.0</AssemblyVersion>
+    <FileVersion>10.9.0.0</FileVersion>
+    <InformationalVersion>10.9.0.0</InformationalVersion>
     <SourceRevisionId>build$([System.DateTime]::UtcNow.ToString("yyyy-MM-ddTHH:mm:ss:fffZ"))</SourceRevisionId>
     <Copyright>© DirtyRacer</Copyright>
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
@@ -45,7 +45,7 @@
   </ItemGroup>
 
   <ItemGroup Condition="'$(Configuration)'=='Debug' or '$(Configuration)'=='Release'">
-    <PackageReference Include="Jellyfin.Controller" Version="10.8.13" />
+    <PackageReference Include="Jellyfin.Controller" Version="10.9.0" />
     <PackageReference Include="Microsoft.Extensions.Http" Version="6.0.0" />
     <PackageReference Include="SkiaSharp" Version="2.88.0" />
   </ItemGroup>

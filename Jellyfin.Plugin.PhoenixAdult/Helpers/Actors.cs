@@ -8,6 +8,7 @@ using MediaBrowser.Controller.Entities.Movies;
 using MediaBrowser.Controller.Providers;
 using PhoenixAdult.Configuration;
 using PhoenixAdult.Helpers.Utils;
+using Jellyfin.Data.Enums;
 
 #if __EMBY__
 #else
@@ -44,9 +45,9 @@ namespace PhoenixAdult.Helpers
 
 #if __EMBY__
 #else
-                if (string.IsNullOrEmpty(newPeople.Type))
+                if (Enum.IsDefined(typeof(PersonKind), newPeople.Type))
                 {
-                    newPeople.Type = PersonType.Actor;
+                    newPeople.Type = PersonKind.Actor;
                 }
 #endif
                 if (!newPeoples.Any(o => o.Name == newPeople.Name))
