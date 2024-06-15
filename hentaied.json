@@ -1,0 +1,157 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@id": "https://hentaied.com/#place",
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "United Kingdom",
+                "addressLocality": "London",
+                "postalCode": "W1W 6AB",
+                "streetAddress": "Bentinck House, 3-8 Bolsover Street"
+            }
+        },
+        {
+            "@id": "https://hentaied.com/#organization",
+            "@type": [
+                "AdultEntertainment",
+                "Organization"
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "United Kingdom",
+                "addressLocality": "London",
+                "postalCode": "W1W 6AB",
+                "streetAddress": "Bentinck House, 3-8 Bolsover Street"
+            },
+            "image": {
+                "@id": "https://hentaied.com/#logo"
+            },
+            "location": {
+                "@id": "https://hentaied.com/#place"
+            },
+            "logo": {
+                "@id": "https://hentaied.com/#logo",
+                "@type": "ImageObject",
+                "caption": "Real Life Hentai | Tentacle Porn",
+                "contentUrl": "https://hentaied.com/wp-content/uploads/2020/11/Hentaied_Logo_Art_x4.png",
+                "height": "1837",
+                "inLanguage": "en-US",
+                "url": "https://hentaied.com/wp-content/uploads/2020/11/Hentaied_Logo_Art_x4.png",
+                "width": "1760"
+            },
+            "name": "Hentaied",
+            "openingHours": [
+                "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:00-17:00"
+            ],
+            "sameAs": [
+                "https://twitter.com/hentaied1"
+            ],
+            "url": "https://hentaied.com"
+        },
+        {
+            "@id": "https://hentaied.com/#website",
+            "@type": "WebSite",
+            "alternateName": "Hentaied",
+            "inLanguage": "en-US",
+            "name": "Real Life Hentai | Tentacle Porn",
+            "publisher": {
+                "@id": "https://hentaied.com/#organization"
+            },
+            "url": "https://hentaied.com"
+        },
+        {
+            "@id": "https://hentaied.com/wp-content/uploads/2021/05/1-girl-4-eggs-8.jpg",
+            "@type": "ImageObject",
+            "caption": "Little Dragon fucked by aliens",
+            "height": "1440",
+            "inLanguage": "en-US",
+            "url": "https://hentaied.com/wp-content/uploads/2021/05/1-girl-4-eggs-8.jpg",
+            "width": "2560"
+        },
+        {
+            "@id": "https://hentaied.com/1-girl-4-eggs/#breadcrumb",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@id": "https://hentaied.com",
+                        "name": "Home"
+                    },
+                    "position": "1"
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@id": "https://hentaied.com/1-girl-4-eggs/",
+                        "name": "1 Girl 4 Eggs"
+                    },
+                    "position": "2"
+                }
+            ]
+        },
+        {
+            "@id": "https://hentaied.com/1-girl-4-eggs/#webpage",
+            "@type": "WebPage",
+            "breadcrumb": {
+                "@id": "https://hentaied.com/1-girl-4-eggs/#breadcrumb"
+            },
+            "dateModified": "2022-10-19T09:21:30+00:00",
+            "datePublished": "2021-05-28T10:49:29+00:00",
+            "inLanguage": "en-US",
+            "isPartOf": {
+                "@id": "https://hentaied.com/#website"
+            },
+            "name": "1 Girl 4 Eggs | Hentaied",
+            "primaryImageOfPage": {
+                "@id": "https://hentaied.com/wp-content/uploads/2021/05/1-girl-4-eggs-8.jpg"
+            },
+            "url": "https://hentaied.com/1-girl-4-eggs/"
+        },
+        {
+            "@id": "https://hentaied.com/author/admin/",
+            "@type": "Person",
+            "image": {
+                "@id": "https://secure.gravatar.com/avatar/f16a6ff7077df70259a9d1162766d7d7?s=96&amp;d=mm&amp;r=g",
+                "@type": "ImageObject",
+                "caption": "romero",
+                "inLanguage": "en-US",
+                "url": "https://secure.gravatar.com/avatar/f16a6ff7077df70259a9d1162766d7d7?s=96&amp;d=mm&amp;r=g"
+            },
+            "name": "romero",
+            "url": "https://hentaied.com/author/admin/",
+            "worksFor": {
+                "@id": "https://hentaied.com/#organization"
+            }
+        },
+        {
+            "@id": "https://hentaied.com/1-girl-4-eggs/#richSnippet",
+            "@type": "BlogPosting",
+            "author": {
+                "@id": "https://hentaied.com/author/admin/",
+                "name": "romero"
+            },
+            "dateModified": "2022-10-19T09:21:30+00:00",
+            "datePublished": "2021-05-28T10:49:29+00:00",
+            "description": "Watch Little Dragon&#039;s latest porn scene with oviposition, bondage and Mr. Alien&#039;s slimy tentacles of course!",
+            "headline": "1 Girl 4 Eggs | Hentaied",
+            "image": {
+                "@id": "https://hentaied.com/wp-content/uploads/2021/05/1-girl-4-eggs-8.jpg"
+            },
+            "inLanguage": "en-US",
+            "isPartOf": {
+                "@id": "https://hentaied.com/1-girl-4-eggs/#webpage"
+            },
+            "keywords": "Little Dragon porn",
+            "mainEntityOfPage": {
+                "@id": "https://hentaied.com/1-girl-4-eggs/#webpage"
+            },
+            "name": "1 Girl 4 Eggs | Hentaied",
+            "publisher": {
+                "@id": "https://hentaied.com/#organization"
+            }
+        }
+    ]
+}
